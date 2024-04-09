@@ -15,7 +15,7 @@ url_api = "https://www.thecocktaildb.com/api/json/v1/1/search.php?f="
 
 
 letters = list(string.ascii_lowercase) + list(string.digits)
-print(letters[23])
+
 json_data = []
 for i in letters:
     url = url_api + i
